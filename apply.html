@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Witcher School</title>
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "assets/style.css" />
+</head>
+
+<body>
+
+<h1>The Witcher School</h1>
+<div class="navbar " id="navdiv">
+	<div class="container">
+		<ul class="menu-left" id="menu">
+			<li><a href="main.html">HOME</a></li>
+			<li><a href="process.html">THE PROCESS</a></li>
+			<li><a href="schools.html">SCHOOLS</a></li>
+			<li><a href="about.html">About Us</a></li>
+		</ul>
+		<ul class="menu-right" id="menu">
+			<li><a href="apply.html">Apply</a></li>
+		</ul>
+	</div>
+</div>
+<form>
+  <div id="applyform">
+    <h1>Apply to become a Witcher</h1>
+    <p>Please fill in this form to apply.</p>
+    <hr>
+
+    <label><b>Name</b></label>
+    <br>
+    <input type="text" placeholder="Enter Name" name="name" id="name" required>
+    <br>
+    <label><b>Date of Birth</b></label>
+    <br>
+    <input type="date" placeholder="Enter Date of Birth" name="dob" id="dob" required>
+    <br>
+    <label><b>Address</b></label>
+    <br>
+	<textarea rows="4" cols="50" name="comment" form="usrform">
+	Enter Address</textarea>
+	<br>
+    <label><b>Email</b></label>
+    <br>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    <br>
+    <label><b>Password</b></label>
+    <br>
+    <input type="password" placeholder="Enter Password" name="name" id="name" required>
+    <br>
+    <label>Choose a School:</label>
+
+	<select name="schoolsel" id="schoolsel">
+	  <option value="wolf">The Wolf</option>
+	  <option value="cat">The Cat</option>
+	  <option value="bear">The Bear</option>
+	  <option value="viper">The Viper</option>
+	  <option value="griffin">The Griffin</option>s
+	</select>
+    <hr>
+    <input type="checkbox" id="agree" name="agree" value="agree" required>
+    <label> I am fully aware of the consequences of being a witcher.</label>
+    <br>
+    <button type="submit" class="submitbtn">Submit</button>
+  </div>
+</form>
+<form id = "surveyform">
+    <label>How did you reach us?</label><br>
+    <input type="radio" id="internet" name="reach" value="internet">
+    <label>A post on the internet</label><br>
+    <input type="radio" id="ad" name="reach" value="ad">
+    <label>Advertisement</label><br>
+    <input type="radio" id="frnd" name="reach" value="frnd">
+    <label>Recommended by a friend/collegue</label><br>
+    <input type="radio" id="book" name="reach" value="book">
+    <label>A book or a movie</label><br>
+    <input type="submit" value="Submit">
+</body>
+</html>

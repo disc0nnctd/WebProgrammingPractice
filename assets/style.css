@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'thewitchermedium';
+    src: url('fonts/thewitcher-jnoj-webfont.woff2') format('woff2'),
+         url('fonts/thewitcher-jnoj-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    color: #eaeaea;
+
+}
+
+body {
+  background-color: black;
+  background-size: 1500px;
+}
+
+h1 {
+  font-family: thewitchermedium;
+  color: #b50c0f;
+  text-align: center;
+}
+
+h2 {
+  color:  #eaeaea;
+  text-align: left;
+}
+
+h3 {
+  color: grey;
+  text-align: left;
+}
+
+p {
+  font-family: calibri;
+  font-size: 20px;
+  color: white;
+}
+
+ul {
+  color: white;
+}
+ol {
+  color: white;
+}
+
+
+#navdiv{
+    background-color: black;
+    min-height: 80px;
+} 
+
+#menu{
+    background-color: black;
+    font-family: thewitchermedium;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    min-height: 50px;
+} 
+
+#menu li{
+  display:inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  text-align: center;
+}
+
+#menu li a{
+  display: block;
+  color: #eaeaea;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  background-color: #272727;
+}
+.menu-left{
+  float : left;
+}
+.menu-right{
+  float : right;
+}
+
+.container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 1100px;
+  color: white;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+
+.schools table, th, td{
+  border: 0px solid white;
+}
+
+.schools th{
+  font-family: thewitchermedium;
+  font-size: 30px;
+  text-align: left;
+  color: white;
+}
+
+.schools td{
+  text-align: left;
+  color: white;
+  rowspan: 2;
+}
+
+.schools img{
+  width: 150px;
+}
+
+
+#who, #who h2{
+  text-align: center;
+}
+
+#process{
+  font-size: 22px;
+  text-align: center;
+}
+
+#process h2{
+  text-align: center;
+}
+
+#process p, li{
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+
+#applyform{
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+#surveyform{
+  text-align: left;
+  font-size: 20px;
+  color: white;
+}
