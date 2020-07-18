@@ -7,19 +7,19 @@
 
 <body>
     <h1>The Witcher School</h1>
-    <div class="navbar " id="navdiv">
+      <div class="navbar " id="navdiv">
         <div class="contain">
-            <ul class="menu-left" id="menu">
-                <li><a href="main.html">HOME</a></li>
-                <li><a href="process.html">THE PROCESS</a></li>
-                <li><a href="schools.html">SCHOOLS</a></li>
-                <li><a href="about.html">About Us</a></li>
-            </ul>
-            <ul class="menu-right" id="menu">
-                <li><a href="apply.html">Apply</a></li>
-            </ul>
+          <ul class="menu" id="menu-left">
+            <li> <a href="main.html">HOME</a> </li>
+            <li> <a href="process.html">THE PROCESS</a> </li>
+            <li> <a href="schools.html">SCHOOLS</a> </li>
+            <li> <a href="about.html">About Us</a> </li>
+          </ul>
+          <ul class="menu" id="menu-right">
+            <li> <a href="apply.html">Apply</a> </li>
+          </ul>
         </div>
-    </div>
+      </div>
     <form>
         <div id="applyform">
             <h1>Apply to become a Witcher</h1>
@@ -54,15 +54,16 @@
                 <option value="griffin">The Griffin</option>s </select>
             <hr>
             <br>
-            <input type="checkbox" id="newsletter" name="newsletter" value="newsletter" checked>
-            <label> I want to subscribe to the newsletter.</label>
-            <br>
-            <input type="checkbox" id="agree" name="agree" value="agree" required>
-            <label> I am fully aware of the consequences of being a witcher.</label>
-            <br>
-            <input type="checkbox" id="aware" name="aware" value="aware" required>
-            <label> I am aware of the risks of the deadly process.</label>
-            <br>
+            <div id="checkboxes">
+                <input type="checkbox" id="newsletter" name="newsletter" value="newsletter" checked>
+                <label> I want to subscribe to the newsletter.</label>
+                <br>
+                <input type="checkbox" id="agree" name="agree" value="agree" required>
+                <label> I am fully aware of the consequences of being a witcher.</label>
+                <br>
+                <input type="checkbox" id="aware" name="aware" value="aware" required>
+                <label> I am aware of the risks of the deadly process.</label>
+                <br> </div>
             <button type="submit" class="submitbtn">Submit</button>
         </div>
     </form>

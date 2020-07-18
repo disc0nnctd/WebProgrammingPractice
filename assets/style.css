@@ -1,11 +1,10 @@
 @font-face {
-    font-family: 'thewitchermedium';
-    src: url('fonts/thewitcher-jnoj-webfont.woff2') format('woff2'),
+  font-family: 'thewitchermedium';
+  src: url('fonts/thewitcher-jnoj-webfont.woff2') format('woff2'),
          url('fonts/thewitcher-jnoj-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    color: #eaeaea;
-
+  font-weight: normal;
+  font-style: normal;
+  color: #eaeaea;
 }
 
 body {
@@ -20,7 +19,7 @@ h1 {
 }
 
 h2 {
-  color:  #eaeaea;
+  color: #eaeaea;
   text-align: left;
 }
 
@@ -38,34 +37,34 @@ p {
 ul {
   color: white;
 }
+
 ol {
   color: white;
 }
 
+#navdiv {
+  background-color: black;
+  min-height: 80px;
+}
 
-#navdiv{
-    background-color: black;
-    min-height: 80px;
-} 
+.menu {
+  background-color: black;
+  font-family: thewitchermedium;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  min-height: 50px;
+}
 
-#menu{
-    background-color: black;
-    font-family: thewitchermedium;
-    font-size: 20px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    min-height: 50px;
-} 
-
-#menu li{
-  display:inline-block;
+.menu li {
+  display: inline-block;
   margin: 0;
   padding: 0;
   background-color: black;
   text-align: center;
 }
 
-#menu li a{
+.menu li a {
   display: block;
   color: #eaeaea;
   text-align: center;
@@ -73,14 +72,16 @@ ol {
   text-decoration: none;
 }
 
-#menu li a:hover {
+.menu li a:hover {
   background-color: #272727;
 }
-.menu-left{
-  float : left;
+
+#menu-left {
+  float: left;
 }
-.menu-right{
-  float : right;
+
+#menu-right {
+  float: right;
 }
 
 .container {
@@ -96,56 +97,59 @@ ol {
   padding-right: 2px;
 }
 
-
-.schools table, th, td{
+.schools table, th, td {
   border: 0px solid white;
 }
 
-.schools th{
+.schools th {
   font-family: thewitchermedium;
   font-size: 30px;
   text-align: left;
   color: white;
 }
 
-.schools td{
+.schools td {
   text-align: left;
   color: white;
 }
 
-.schools img{
+.schools img {
   width: 150px;
 }
 
-
-#who, #who h2{
+#who, #who h2 {
   text-align: center;
 }
 
-#process{
+#process {
   font-size: 22px;
   text-align: center;
 }
 
-#process h2{
+#process h2 {
   text-align: center;
 }
 
-#process p, li{
+#process p, li {
   margin: 10px;
   padding: 10px;
   font-size: 20px;
   text-align: left;
 }
 
-#applyform{
+#applyform {
   text-align: center;
   font-size: 20px;
   color: white;
 }
 
-#surveyform{
+#surveyform {
   text-align: left;
   font-size: 20px;
   color: white;
+}
+
+#checkboxes{
+  text-align: left;
+  margin-left: 40%;
 }
