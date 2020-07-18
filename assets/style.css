@@ -47,7 +47,7 @@ ol {
   min-height: 80px;
 }
 
-.menu {
+.menu{
   background-color: black;
   font-family: thewitchermedium;
   font-size: 20px;
@@ -152,4 +152,30 @@ ol {
 #checkboxes{
   text-align: left;
   margin-left: 40%;
+}
+
+summary {
+  font-size: 20px;
+  color: white;
+}
+
+summary p{
+  font-size: 5px;
+  color: white;
+}
+
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  font-style: italic;
+}
+
+footer p{
+  font-size: 10px;
+  text-align: left;
+}
+
+footer a{
+  color: red;
 }

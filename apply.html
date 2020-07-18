@@ -1,25 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>The Witcher School</title>
     <link rel="stylesheet" type="text/css" href="assets/style.css" /> </head>
 
 <body>
-    <h1>The Witcher School</h1>
-      <div class="navbar " id="navdiv">
+    <header><h1>The Witcher School</h1>
+    <nav>
+    <div class="navbar " id="navdiv">
         <div class="contain">
-          <ul class="menu" id="menu-left">
-            <li> <a href="main.html">HOME</a> </li>
-            <li> <a href="process.html">THE PROCESS</a> </li>
-            <li> <a href="schools.html">SCHOOLS</a> </li>
-            <li> <a href="about.html">About Us</a> </li>
-          </ul>
-          <ul class="menu" id="menu-right">
-            <li> <a href="apply.html">Apply</a> </li>
-          </ul>
+            <ul class="menu" id="menu-left">
+                <li> <a href="main.html">HOME</a> </li>
+                <li> <a href="process.html">THE PROCESS</a> </li>
+                <li> <a href="schools.html">SCHOOLS</a> </li>
+                <li> <a href="about.html">About Us</a> </li>
+            </ul>
+            <ul class="menu" id="menu-right">
+                <li> <a href="apply.html">Apply</a> </li>
+            </ul>
         </div>
-      </div>
+    </div>
+    </nav>
+    </header>
+    <main>
     <form>
         <div id="applyform">
             <h1>Apply to become a Witcher</h1>
@@ -31,11 +35,11 @@
             <br>
             <label><b>Date of Birth</b></label>
             <br>
-            <input type="date" placeholder="Enter Date of Birth" name="dob" id="dob" required>
+            <input type="date" name="dob" id="dob" required>
             <br>
             <label><b>Address</b></label>
             <br>
-            <textarea rows="4" cols="50" name="comment" form="usrform">Enter Address</textarea>
+            <textarea rows="4" cols="50" name="Address" form="usrform"></textarea>
             <br>
             <label><b>Email</b></label>
             <br>
@@ -51,7 +55,13 @@
                 <option value="cat">The Cat</option>
                 <option value="bear">The Bear</option>
                 <option value="viper">The Viper</option>
-                <option value="griffin">The Griffin</option>s </select>
+                <option value="griffin">The Griffin</option></select>
+            <br>
+            <br>
+            <label>How likely you think you'll be admitted?</label>
+            <br>
+            <input type="range">
+
             <hr>
             <br>
             <div id="checkboxes">
@@ -63,7 +73,8 @@
                 <br>
                 <input type="checkbox" id="aware" name="aware" value="aware" required>
                 <label> I am aware of the risks of the deadly process.</label>
-                <br> </div>
+                <br> 
+            </div>
             <button type="submit" class="submitbtn">Submit</button>
         </div>
     </form>
@@ -83,6 +94,16 @@
         <label>A book or a movie</label>
         <br>
         <input type="submit" value="Submit"> </form>
+    </main>
+    <p>Here's some music</p>
+    <audio controls>
+    <source src = "assets/kaermorhen.mp3" type = "audio/mp3"/>
+    </audio>
+    <footer>
+        <hr>
+        <p>This website is a joke and is to be taken as one.</p>
+        <p>Contact <a href="mailto:divyashchhablani00@gmail.com" title="This is creator's email">DC</a> for issues.</p>
+    </footer>
 </body>
 
 </html>
