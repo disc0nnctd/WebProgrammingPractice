@@ -1,7 +1,12 @@
 @font-face {
-  font-family: 'thewitchermedium';
-  src: url('fonts/thewitcher-jnoj-webfont.woff2') format('woff2'),
-         url('fonts/thewitcher-jnoj-webfont.woff') format('woff');
+  font-family: "thewitchermedium";
+  src: url("fonts/Thewitcher-jnOj.eot"); /* IE9 Compat Modes */
+  src: url("fonts/Thewitcher-jnOj.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/Thewitcher-jnOj.otf") format("opentype"), /* Open Type Font */
+    url("fonts/Thewitcher-jnOj.svg") format("svg"), /* Legacy iOS */
+    url("fonts/Thewitcher-jnOj.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("fonts/Thewitcher-jnOj.woff") format("woff"), /* Modern Browsers */
+    url("fonts/Thewitcher-jnOj.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
   color: #eaeaea;
