@@ -12,6 +12,13 @@
   color: #eaeaea;
 }
 
+header{
+  word-spacing: 5px;
+}
+header h1{
+  letter-spacing: 3px;
+}
+
 body {
   background-color: black;
   background-size: 1500px;
@@ -93,17 +100,20 @@ ol {
   position: relative;
 }
 
-.text-block {
+.geralt {
   position: absolute;
   bottom: 20px;
   right: 1100px;
   color: white;
   padding-left: 2px;
   padding-right: 2px;
+  border: 0px solid white;
 }
 
-.schools table, th, td {
-  border: 0px solid white;
+.geralt img{
+  border: 2px solid white; /*width style color*/
+  border-top: 2px solid black;
+  border-left: 2px solid black;
 }
 
 .schools th {
@@ -174,6 +184,8 @@ aside {
   padding-left: 15px;
   margin-left: 15px;
   font-style: italic;
+  border: 1px dashed white;
+  float:right;
 }
 
 footer p{
