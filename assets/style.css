@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "thewitchermedium";
+  src: url("fonts/Thewitcher-jnOj.eot"); /* IE9 Compat Modes */
+  src: url("fonts/Thewitcher-jnOj.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/Thewitcher-jnOj.otf") format("opentype"), /* Open Type Font */
+    url("fonts/Thewitcher-jnOj.svg") format("svg"), /* Legacy iOS */
+    url("fonts/Thewitcher-jnOj.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("fonts/Thewitcher-jnOj.woff") format("woff"), /* Modern Browsers */
+    url("fonts/Thewitcher-jnOj.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  color: #eaeaea;
+}
+
+header{
+  word-spacing: 5px;
+}
+header h1{
+  letter-spacing: 3px;
+}
+
+body {
+  background-color: black;
+  background-size: 1500px;
+}
+
+h1 {
+  font-family: thewitchermedium;
+  color: #b50c0f;
+  text-align: center;
+}
+
+h2 {
+  color: #eaeaea;
+  text-align: left;
+}
+
+h3 {
+  color: grey;
+  text-align: left;
+}
+
+p {
+  font-family: calibri;
+  font-size: 20px;
+  color: white;
+}
+
+ul {
+  color: white;
+}
+
+ol {
+  color: white;
+}
+
+#navdiv {
+  background-color: black;
+  min-height: 80px;
+}
+
+.menu{
+  background-color: black;
+  font-family: thewitchermedium;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  min-height: 50px;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  text-align: center;
+}
+
+.menu li a {
+  display: block;
+  color: #eaeaea;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #272727;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-right {
+  float: right;
+}
+
+.container {
+  position: relative;
+}
+
+.geralt {
+  position: absolute;
+  bottom: 20px;
+  right: 1100px;
+  color: white;
+  padding-left: 2px;
+  padding-right: 2px;
+  border: 0px solid white;
+}
+
+.geralt img{
+  border: 2px solid white; /*width style color*/
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.schools th {
+  font-family: thewitchermedium;
+  font-size: 30px;
+  text-align: left;
+  color: white;
+}
+
+.schools td {
+  text-align: left;
+  color: white;
+}
+
+.schools img {
+  width: 150px;
+}
+
+#who, #who h2 {
+  text-align: center;
+}
+
+#process {
+  font-size: 22px;
+  text-align: center;
+}
+
+#process h2 {
+  text-align: center;
+}
+
+#process p, li {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+
+#applyform {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+#surveyform {
+  text-align: left;
+  font-size: 20px;
+  color: white;
+}
+
+#checkboxes{
+  text-align: left;
+  margin-left: 40%;
+}
+
+summary {
+  font-size: 20px;
+  color: white;
+}
+
+summary p{
+  font-size: 5px;
+  color: white;
+}
+
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  font-style: italic;
+  border: 1px dashed white;
+  float:right;
+}
+
+footer p{
+  font-size: 10px;
+  text-align: left;
+}
+
+footer a{
+  color: red;
+}
